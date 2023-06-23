@@ -1,0 +1,109 @@
+name: test_opensource
+description: A new Flutter project.
+
+publish_to: 'none' #
+
+version: 1.0.0+3
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  package_info_plus: ^4.0.2
+  flutter_svg: ^1.1.1+1
+  get: ^4.6.5
+  video_player: ^2.4.8
+  syncfusion_flutter_charts: ^20.3.59
+  syncfusion_flutter_sliders: ^20.3.59
+  auto_size_text: ^3.0.0
+  url_launcher: ^6.1.7
+  flutter_youtube_view: ^2.0.4
+  youtube_player_iframe: ^4.0.4
+  smooth_page_indicator: ^1.0.0+2
+  http: ^0.13.4
+  flutter_bloc: ^7.0.1
+  simple_gradient_text: ^1.2.3
+  pinput: ^2.2.11
+  intl: ^0.18.1
+  shimmer: ^2.0.0
+  connectivity_plus: ^2.3.6
+  dio: ^4.0.6
+  extended_masked_text: ^2.3.1
+  loading_animation_widget: ^1.2.0+2
+  flutter_switch: ^0.3.2
+  country_picker: ^2.0.15
+  adaptive_action_sheet: ^2.0.2
+  image_picker: ^0.8.5+3
+  google_maps_flutter: ^2.1.12
+  geocoding: ^2.0.4
+  language_picker: ^0.4.1
+  percent_indicator: ^4.2.2
+  share_plus: ^7.0.2
+  readmore: ^2.2.0
+  rich_text_controller: ^1.4.0
+#  easy_localization: any
+  visibility_detector: ^0.3.3
+  geolocator: ^9.0.2
+  webview_flutter: ^4.2.0
+  modal_bottom_sheet: ^3.0.0-pre
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.4
+
+flutter_native_splash:
+  icon_background_color: "#0F0F11"
+  icon_background_color_dark: "#0F0F11"
+  color: "#cbe6fe"
+  color_dark: "#cbe6fe"
+  android: true
+  ios: true
+  fill: true
+
+  android_12:
+    color: "#cbe6fe"
+    color_dark: "#cbe6fe"
+    icon_background_color: "#0F0F11"
+    icon_background_color_dark: "#0F0F11"
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: SF-Pro-Text
+      fonts:
+        - asset: lib/assets/fonts/SF-Pro-Text/SF-Pro-Text-Regular.otf
+        - asset: lib/assets/fonts/SF-Pro-Text/SF-Pro-Text-Medium.otf
+        - asset: lib/assets/fonts/SF-Pro-Text/SF-Pro-Text-Bold.otf
+
+    - family: SF-Pro-Display
+      fonts:
+        - asset: lib/assets/fonts/SF-Pro-Display/SF-Pro-Display-Regular.OTF
+        - asset: lib/assets/fonts/SF-Pro-Display/SF-Pro-Display-Medium.OTF
+        - asset: lib/assets/fonts/SF-Pro-Display/SF-Pro-Display-Bold.OTF
+
+    - family: Inter
+      fonts:
+        - asset: lib/assets/fonts/Inter/Inter-Black.ttf
+        - asset: lib/assets/fonts/Inter/Inter-ExtraBold.ttf
+        - asset: lib/assets/fonts/Inter/Inter-Medium.ttf
+        - asset: lib/assets/fonts/Inter/Inter-Bold.ttf
+        - asset: lib/assets/fonts/Inter/Inter-Regular.ttf
+        - asset: lib/assets/fonts/Inter/Inter-Light.ttf
+        - asset: lib/assets/fonts/Inter/Inter-Thin.ttf
+        - asset: lib/assets/fonts/Inter/Inter-ExtraLight.ttf
+        - asset: lib/assets/fonts/Inter/Inter-SemiBold.ttf
+
+  assets:
+    - lib/assets/translations/
+    - lib/assets/photos/
+    - lib/assets/svg/
